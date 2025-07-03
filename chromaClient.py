@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from langchain.vectorstores import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 import chromadb
 
